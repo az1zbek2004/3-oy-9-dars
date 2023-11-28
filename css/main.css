@@ -378,7 +378,57 @@
 .date--red {
     color:red;
 }
-#check:checked 
+
+#check{
+    display: none;
+}
+.fa-solid{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+    top: 10px;
+}
+.label{
+    display: none;
+}
+#check:checked + label{
+    display: none;
+}
+#check:checked ~ .label{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#check:checked ~ header{
+    display: none;
+    background:#FFF;
+    width: 100px;
+}
+#check:checked ~ nav{
+    display: none;
+    width: 100px;
+}
+#check:checked ~ footer{
+    display: none;
+    background:#FFF;
+    width: 100px;
+}
+#checkbox:checked + .sidebar{
+
+    background:#FFF;
+    width: 100px;
+}
 
 
 
