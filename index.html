@@ -7,279 +7,228 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>| Senim Cabinet | </title>
 </head>
 <body>
     <!-- SIDEBAR  -->
-    <div class="sidebar">
-
-        <!-- SIDEBAR HEADER  -->
-        <header class="sidebar__header">
-            <div class="logo">
-                <img src="./image/Mask Group.svg" alt="logotip" class="logo__icon">
-                <h1 class="logo__title">ТОО «Smart»</h1>
-            </div>
-
-            <img src="./image/settings2.svg" alt="setting icon" class="setting-icon">
-        </header>
-
-        <!-- SIDEBAR LIST  -->
-        <nav class="sidebar__list">
-            <h2 class="list__title">КОМПАНИЯ</h2>
-            <!-- LIST 1 -->
-            <a href="#" class="list--item">
-                <img src="./image/dashboard.svg" alt="dashboard icon" class="item__image">
-                <span class="item--name">Компания</span>
-            </a>
-             <!-- LIST 2 -->
-            <a href="#" class="list--item">
-                <img src="./image/checks.svg" alt="checks icon" class="item__image">
-                <span class="item--name">Счета</span>
-            </a>
-             <!-- LIST 3 -->
-            <a href="#" class="list--item">
-                <img src="./image/places.svg" alt="places icon" class="item__image">
-                <span class="item--name">Торговые точки</span>
-            </a>
-             <!-- LIST 4 -->
-            <a href="#" class="list--item">
-                <img src="./image/employees.svg" alt="employees icon" class="item__image">
-                <span class="item--name">Сотрудники</span>
-            </a>
-             <!-- LIST 5 -->
-            <a href="#" class="list--item">
-                <img src="./image/integration.svg" alt="integration icon" class="item__image">
-                <span class="item--name">Интеграция</span>
-            </a>
-             <!-- LIST 6 -->
-            <a href="#" class="list--item">
-                <img src="./image/bank-cards.svg" alt="bank-cards icon" class="item__image">
-                <span class="item--name">Отчёты и финансы</span>
-            </a>
-
-            <h2 class="last__title2">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</h2>
-             <!-- LIST 7 -->
-             <a href="#" class="list--item">
-                <img src="./image/organizations.svg" alt="organizations icon" class="item__image">
-                <span class="item--name">Организации</span>
-            </a>
-             <a href="#" class="list--item">
-                <img src="./image/trusted-checks.svg" alt="trusted-checks icon" class="item__image">
-                <span class="item--name">Доверенные счета</span>
-            </a>
-             <a href="#" class="list--item">
-                <img src="./image/manage.svg" alt="manage icon" class="item__image">
-                <span class="item--name">Услуги</span>
-            </a>
-        </nav>
-    </div>
-
-    <!-- MAIN  -->
-    <main class="main">
-        <!-- MAIN HEADER  -->
-        <header class="main__header">
-            <h2 class="header__title">Все счета</h2>
-            <button class="header__button">Выставить счёт</button>
-        </header>
-        <!-- MAIN INNER  -->
-        <div class="main__inner box">
-            <!-- BOX NAVIGATION  -->
-            <nav class="box__navigation">
-                <a href="#" class="box--item">Выставленные</a>
-                <a href="#" class="box--item">К оплате</a>
-                <a href="#" class="box--item">История</a>   
+    <div class="container">
+        <div class="sidebar">
+            <!-- SIDEBAR HEADER  -->
+            <input type="checkbox" id="check">
+            <label for="ckeck">
+                <header class="sidebar__header">
+                   <div class="logo">
+                    <img src="./image/Mask Group.svg" alt="logotip" class="logo__icon">
+                    <p class="logo__title">ТОО «Smart»</p>
+                   </div>
+                    <img src="./image/settings2.svg" alt="setting icon" class="setting-icon">
+                </header>
+            </label>
+            <!-- SIDEBAR LIST  -->
+            <nav class="sidebar__list">
+                <div class="title--list">
+                    <h2 class="list__title">КОМПАНИЯ</h2>
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <!-- LIST 1 -->
+                <a href="#" class="list--item">
+                    <img src="./image/dashboard.svg" alt="dashboard icon" class="item__image">
+                    <span class="item--name">Компания</span>
+                </a>
+                 <!-- LIST 2 -->
+                <a href="#" class="list--item">
+                    <img src="./image/checks.svg" alt="checks icon" class="item__image">
+                    <span class="item--name">Счета</span>
+                </a>
+                 <!-- LIST 3 -->
+                <a href="#" class="list--item">
+                    <img src="./image/places.svg" alt="places icon" class="item__image">
+                    <span class="item--name">Торговые точки</span>
+                </a>
+                 <!-- LIST 4 -->
+                <a href="#" class="list--item">
+                    <img src="./image/employees.svg" alt="employees icon" class="item__image">
+                    <span class="item--name">Сотрудники</span>
+                </a>
+                 <!-- LIST 5 -->
+                <a href="#" class="list--item">
+                    <img src="./image/integration.svg" alt="integration icon" class="item__image">
+                    <span class="item--name">Интеграция</span>
+                </a>
+                 <!-- LIST 6 -->
+                <a href="#" class="list--item">
+                    <img src="./image/bank-cards.svg" alt="bank-cards icon" class="item__image">
+                    <span class="item--name">Отчёты и финансы</span>
+                </a>
+                <div class="title--list">
+                    <h2 class="last__title2">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</h2>
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                 <!-- LIST 7 -->
+                 <a href="#" class="list--item">
+                    <img src="./image/organizations.svg" alt="organizations icon" class="item__image">
+                    <span class="item--name">Организации</span>
+                </a>
+                 <a href="#" class="list--item">
+                    <img src="./image/trusted-checks.svg" alt="trusted-checks icon" class="item__image">
+                    <span class="item--name">Доверенные счета</span>
+                </a>
+                 <a href="#" class="list--item">
+                    <img src="./image/manage.svg" alt="manage icon" class="item__image">
+                    <span class="item--name">Услуги</span>
+                </a>
             </nav>
-            <!-- BOX FORM -->
-            <form action="" class="box__form">
-                <select name="slect" id="form__select1">
-                    <option value="Все торговые точки и операции">Все торговые точки и операции</option>
-                </select>
-                <select name="slect" id="form__select2">
-                    <option value="Фильтры">Фильтры</option>
-                </select>
-                <input type="text" placeholder="Поиск по номеру счета">
-                <select name="slect" id="form__select3">
-                    <option value="Действия">Действия</option>
-                </select>
-            </form>
-            <!-- BOX TABLE  -->
-            <table class="box__table">
-                <tr class="box--row">
-
-                    <th class="checkbox_heading">
-                        <input type="checkbox" id="check">
-                        <label for="check">Номер счета</label>
-                    </th>
-
-                    <th class="box--heading">
-                        <select id="time_select">
-                            <option value="Время и дата">Время и дата</option>
-                        </select>
-                    </th>
-
-                    <th class="box--heading">Торговая точка / Оперция</th>
-
-                    <th class="box--heading">
-                        <select id="sum_select">
-                            <option value="Сумма">Сумма</option>
-                        </select>
-                    </th>
-
-                    <th class="box--heading">Получено</th>
-
-                    <th class="box--heading">
-                        <select id="status_select">
-                            <option value="Статус">Статус</option>
-                        </select>
-                    </th>
-
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">№32467</label>
-                    </td>
-
-                    <td class="date--time">11:20 05.01.2019</td>
-
-                    <td class="date--operation">Smart Лазурный</td>
-
-                    <td class="date--sum date--after">1500 тг</td>
-
-                    <td class="date--receive">1350 тг</td>
-
-                    <td class="date--status">Оплачено</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">№32466</label>
-                    </td>
-
-                    <td class="date--time">21:18 02.01.2019</td>
-
-                    <td class="date--operation">Smart Ишим</td>
-
-                    <td class="date--sum">3 850 тг</td>
-
-                    <td class="date--receive"></td>
-
-                    <td class="date--status">Отклонено</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">Вывод</label>
-                    </td>
-
-                    <td class="date--time">00:00 31.12.2018</td>
-
-                    <td class="date--operation">-</td>
-
-                    <td class="date--sum">−16 335 тг</td>
-
-                    <td class="date--receive"></td>
-
-                    <td class="date--status">Вывод средств</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">№32467</label>
-                    </td>
-
-                    <td class="date--time">11:20 29.12.2018</td>
-
-                    <td class="date--operation">Smart Лазурный</td>
-
-                    <td class="date--sum">1000 тг</td>
-
-                    <td class="date--receive"></td>
-
-                    <td class="date--status">Оплачено</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">№32467</label>
-                    </td>
-
-                    <td class="date--time">11:20 29.12.2018</td>
-
-                    <td class="date--operation">Smart Лазурный</td>
-
-                    <td class="date--sum date--after">1500 тг</td>
-
-                    <td class="date--receive">1350 тг</td>
-
-                    <td class="date--status">Оплачено</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">Комиссия</label>
-                    </td>
-
-                    <td class="date--time">11:20 29.12.2018</td>
-
-                    <td class="date--operation"></td>
-
-                    <td class="date--sum date--red">−168 тг</td>
-
-                    <td class="date--receive"></td>
-
-                    <td class="date--status">Комиссия</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">№32467</label>
-                    </td>
-
-                    <td class="date--time">11:20 29.12.2018</td>
-
-                    <td class="date--operation">Smart Лазурный</td>
-
-                    <td class="date--sum date--after">1500 тг</td>
-
-                    <td class="date--receive">1350 тг</td>
-
-                    <td class="date--status">Оплачено</td>
-                </tr>
-
-                <tr class="box--row">
-
-                    <td class="checkbox_date">
-                        <input type="checkbox" id="check">
-                        <label for="check">№32467</label>
-                    </td>
-
-                    <td class="date--time">11:20 29.12.2018</td>
-
-                    <td class="date--operation">Smart Ишим</td>
-
-                    <td class="date--sum date--after">9 980 тг</td>
-
-                    <td class="date--receive">8 982 тг</td>
-
-                    <td class="date--status">Оплачено</td>
-                </tr>
-            </table>
+            <!-- SAIDBAR FOOTER  -->
+            <footer class="sidebar__footer">
+                <img class="item__image" src="./image/collapse.svg" alt="collapse icons">
+                <p class="footer__page">Свернуть панель</p>
+            </footer>
         </div>
-    </main>
+        <!-- MAIN  -->
+        <main class="main">
+            <!-- MAIN HEADER  -->
+            <header class="main__header">
+                <h2 class="header__title">Все счета</h2>
+                <button class="header__button">Выставить счёт</button>
+            </header>
+            <!-- MAIN INNER  -->
+            <div class="main__inner box">
+                <!-- BOX NAVIGATION  -->
+                <nav class="box__navigation">
+                    <a href="#" class="box--item">Выставленные</a>
+                    <a href="#" class="box--item">К оплате</a>
+                    <a href="#" class="box--item">История</a>
+                </nav>
+                <!-- BOX FORM -->
+                <form action="" class="box__form">
+                    <select name="select" id="form__select1">
+                        <option value="Все торговые точки и операции">Все торговые точки и операции</option>
+                    </select>
+                    <input class="input__form" type="text" placeholder="Поиск по номеру счета">
+                    <select name="select" id="form__select2">
+                        <option value="Фильтры">Фильтры</option>
+                    </select>
+                    <select name="select" id="form__select3">
+                        <option value="Действия">Действия</option>
+                    </select>
+                </form>
+                <!-- BOX TABLE  -->
+                <table class="box__table">
+                    <tr class="box--row">
+                        <th class="checkbox_heading">
+                            <input type="checkbox" id="check">
+                            <label for="check">Номер счета</label>
+                        </th>
+                        <th class="box--heading">
+                            <select id="time_select">
+                                <option value="Время и дата">Время и дата</option>
+                            </select>
+                        </th>
+                        <th class="box--heading">Торговая точка / Оперция</th>
+                        <th class="box--heading">
+                            <select id="sum_select">
+                                <option value="Сумма">Сумма</option>
+                            </select>
+                        </th>
+                        <th class="box--heading">Получено</th>
+                        <th class="box--heading">
+                            <select id="status_select">
+                                <option value="Статус">Статус</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">№32467</label>
+                        </td>
+                        <td class="date--time">11:20 05.01.2019</td>
+                        <td class="date--operation">Smart Лазурный</td>
+                        <td class="date--sum date--after">1500 тг</td>
+                        <td class="date--receive">1350 тг</td>
+                        <td class="date--status">Оплачено</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">№32466</label>
+                        </td>
+                        <td class="date--time">21:18 02.01.2019</td>
+                        <td class="date--operation">Smart Ишим</td>
+                        <td class="date--sum">3 850 тг</td>
+                        <td class="date--receive"></td>
+                        <td class="date--status  red--status">Отклонено</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">Вывод</label>
+                        </td>
+                        <td class="date--time">00:00 31.12.2018</td>
+                        <td class="date--operation">-</td>
+                        <td class="date--sum">−16 335 тг</td>
+                        <td class="date--receive"></td>
+                        <td class="date--status unique">Вывод средств</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">№32467</label>
+                        </td>
+                        <td class="date--time">11:20 29.12.2018</td>
+                        <td class="date--operation">Smart Лазурный</td>
+                        <td class="date--sum">1000 тг</td>
+                        <td class="date--receive"></td>
+                        <td class="date--status red--status">Оплачено</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">№32467</label>
+                        </td>
+                        <td class="date--time">11:20 29.12.2018</td>
+                        <td class="date--operation">Smart Лазурный</td>
+                        <td class="date--sum date--after">1500 тг</td>
+                        <td class="date--receive">1350 тг</td>
+                        <td class="date--status">Оплачено</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">Комиссия</label>
+                        </td>
+                        <td class="date--time">11:20 29.12.2018</td>
+                        <td class="date--operation"></td>
+                        <td class="date--sum date--red">−168 тг</td>
+                        <td class="date--receive"></td>
+                        <td class="date--status red--status">Комиссия</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">№32467</label>
+                        </td>
+                        <td class="date--time">11:20 29.12.2018</td>
+                        <td class="date--operation">Smart Лазурный</td>
+                        <td class="date--sum date--after">1500 тг</td>
+                        <td class="date--receive">1350 тг</td>
+                        <td class="date--status">Оплачено</td>
+                    </tr>
+                    <tr class="box--row">
+                        <td class="checkbox_date">
+                            <input type="checkbox" id="check">
+                            <label for="check">№32467</label>
+                        </td>
+                        <td class="date--time">11:20 29.12.2018</td>
+                        <td class="date--operation">Smart Ишим</td>
+                        <td class="date--sum date--after">9 980 тг</td>
+                        <td class="date--receive">8 982 тг</td>
+                        <td class="date--status">Оплачено</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
